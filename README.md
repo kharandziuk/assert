@@ -1,3 +1,4 @@
+# THIS A FORK. JUST ADDS AN ALERT WINDOW ON AN EVERY ASSERTION
 # assert.js
 
 **LATEST COMPATIBLE VERSION:** [node v0.11.10](https://github.com/joyent/node/blob/v0.11.10-release/lib/assert.js)

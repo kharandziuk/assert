@@ -141,6 +141,9 @@ assert.AssertionError = function AssertionError(options) {
     this.message = getMessage(this);
     this.generatedMessage = true;
   }
+  alert(
+    'you have an assertion error! look to the browser console'
+  );
   var stackStartFunction = options.stackStartFunction || fail;
 
   if (Error.captureStackTrace) {
